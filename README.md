@@ -15,4 +15,4 @@ Responsive abandoned cart email template built with HTML and CSS for e-commerce 
 ## Images
 
 ![Desktop](images/abandoned-cart-email.png) 
-![Mobile](images/mobile.jpg)
+![Mobile](images/mobile.jpeg)
