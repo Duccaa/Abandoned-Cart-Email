@@ -346,14 +346,14 @@
                     style="table-layout: fixed"
                   >
                     <tr>
-                      <td width="50%" valign="top" class="stack-column">
+                      <td width="50%" valign="center" class="stack-column">
                         <table role="presentation" width="100%">
                           <tr>
                             <td style="padding: 5px" align="center">
                               <img
                                 src="images/dress.png"
                                 width="100%"
-                                style="display: block; border: 0"
+                                style="display: block; border: 0; width: 100%"
                                 alt="Product 1"
                               />
                             </td>
@@ -375,7 +375,17 @@
                                 padding: 10px 0;
                               "
                             >
-                              {{ product_name }}
+                              <p
+                                style="
+                                  font-family:
+                                    &quot;Poppins&quot;, Arial, sans-serif;
+                                  font-size: 18px;
+                                  font-weight: 700;
+                                  color: #333;
+                                "
+                              >
+                                {{ product_name }}
+                              </p>
                             </td>
                           </tr>
                           <tr>
@@ -389,7 +399,17 @@
                                 padding-bottom: 5px;
                               "
                             >
-                              Size: {{ product_size }}
+                              <p
+                                style="
+                                  font-family:
+                                    &quot;Poppins&quot;, Arial, sans-serif;
+                                  font-size: 18px;
+                                  font-weight: 700;
+                                  color: #333;
+                                "
+                              >
+                                Size: {{ product_size }}
+                              </p>
                             </td>
                           </tr>
                           <tr>
@@ -402,7 +422,17 @@
                                 color: #555;
                               "
                             >
-                              Price: {{ product_price }}
+                              <p
+                                style="
+                                  font-family:
+                                    &quot;Poppins&quot;, Arial, sans-serif;
+                                  font-size: 18px;
+                                  font-weight: 700;
+                                  color: #333;
+                                "
+                              >
+                                Price: {{ product_price }}
+                              </p>
                             </td>
                           </tr>
                           <tr>
@@ -418,21 +448,21 @@
                               >
                                 Use this code for a special discount:
                               </p>
-                              <div
+                              <p
                                 style="
                                   font-family:
                                     &quot;Poppins&quot;, Arial, sans-serif;
                                   font-size: 20px;
                                   font-weight: 500;
                                   color: #8ecdbe;
-                                  letter-spacing: 2px;
                                   border: 2px dashed #8ecdbe;
-                                  padding: 10px 20px;
+                                  padding: 10px;
                                   display: inline-block;
+                                  margin: 0;
                                 "
                               >
                                 {{ discount_code }}
-                              </div>
+                              </p>
                             </td>
                           </tr>
                           <tr>
@@ -582,8 +612,7 @@
                       margin: 0;
                     "
                   >
-                    © 2026 Urban Vawe | 123 Main Street,
-                    Anytown, USA
+                    © 2026 Urban Vawe | 123 Main Street, Anytown, USA
                   </p>
                   <p
                     style="
